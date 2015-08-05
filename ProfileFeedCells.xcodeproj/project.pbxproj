@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		805CA8E11B650D0C00E73061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CA8E01B650D0C00E73061 /* AppDelegate.swift */; };
-		805CA8E31B650D0C00E73061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CA8E21B650D0C00E73061 /* ViewController.swift */; };
 		805CA8E61B650D0C00E73061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805CA8E41B650D0C00E73061 /* Main.storyboard */; };
 		805CA8E81B650D0C00E73061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805CA8E71B650D0C00E73061 /* Images.xcassets */; };
 		805CA8EB1B650D0C00E73061 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805CA8E91B650D0C00E73061 /* LaunchScreen.xib */; };
 		805CA8F71B650D0C00E73061 /* ProfileFeedCellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CA8F61B650D0C00E73061 /* ProfileFeedCellsTests.swift */; };
+		805CA9011B650D4600E73061 /* profileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CA9001B650D4600E73061 /* profileTableViewCell.swift */; };
+		805CA9051B650EBB00E73061 /* Nan pop switzerland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 805CA9041B650EBB00E73061 /* Nan pop switzerland.jpg */; };
+		805CA9071B6527F200E73061 /* profileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CA9061B6527F200E73061 /* profileTableViewController.swift */; };
+		805CA90E1B65494600E73061 /* cloud3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 805CA90D1B65494600E73061 /* cloud3.jpg */; };
+		80EC033E1B714D6800D2F72E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC033D1B714D6800D2F72E /* RecordViewController.swift */; };
+		80EC03421B71522400D2F72E /* recordimagecopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EC03411B71522400D2F72E /* recordimagecopy.png */; };
+		80EC03441B71557C00D2F72E /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC03431B71557C00D2F72E /* RecordedAudio.swift */; };
+		80EC03481B71AD5D00D2F72E /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC03471B71AD5D00D2F72E /* GlobalFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +36,20 @@
 		805CA8DB1B650D0C00E73061 /* ProfileFeedCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileFeedCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805CA8DF1B650D0C00E73061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805CA8E01B650D0C00E73061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		805CA8E21B650D0C00E73061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		805CA8E51B650D0C00E73061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		805CA8E71B650D0C00E73061 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		805CA8EA1B650D0C00E73061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		805CA8F01B650D0C00E73061 /* ProfileFeedCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileFeedCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805CA8F51B650D0C00E73061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805CA8F61B650D0C00E73061 /* ProfileFeedCellsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFeedCellsTests.swift; sourceTree = "<group>"; };
+		805CA9001B650D4600E73061 /* profileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileTableViewCell.swift; sourceTree = "<group>"; };
+		805CA9041B650EBB00E73061 /* Nan pop switzerland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nan pop switzerland.jpg"; sourceTree = "<group>"; };
+		805CA9061B6527F200E73061 /* profileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileTableViewController.swift; sourceTree = "<group>"; };
+		805CA90D1B65494600E73061 /* cloud3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud3.jpg; sourceTree = "<group>"; };
+		80EC033D1B714D6800D2F72E /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		80EC03411B71522400D2F72E /* recordimagecopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordimagecopy.png; path = ../../HarkTest/recordimagecopy.png; sourceTree = "<group>"; };
+		80EC03431B71557C00D2F72E /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		80EC03471B71AD5D00D2F72E /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				805CA8E01B650D0C00E73061 /* AppDelegate.swift */,
-				805CA8E21B650D0C00E73061 /* ViewController.swift */,
 				805CA8E41B650D0C00E73061 /* Main.storyboard */,
+				80EC03471B71AD5D00D2F72E /* GlobalFunctions.swift */,
+				80EC033D1B714D6800D2F72E /* RecordViewController.swift */,
+				80EC03431B71557C00D2F72E /* RecordedAudio.swift */,
+				805CA9001B650D4600E73061 /* profileTableViewCell.swift */,
+				805CA9061B6527F200E73061 /* profileTableViewController.swift */,
 				805CA8E71B650D0C00E73061 /* Images.xcassets */,
 				805CA8E91B650D0C00E73061 /* LaunchScreen.xib */,
 				805CA8DE1B650D0C00E73061 /* Supporting Files */,
@@ -90,6 +108,9 @@
 		805CA8DE1B650D0C00E73061 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80EC03411B71522400D2F72E /* recordimagecopy.png */,
+				805CA90D1B65494600E73061 /* cloud3.jpg */,
+				805CA9041B650EBB00E73061 /* Nan pop switzerland.jpg */,
 				805CA8DF1B650D0C00E73061 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				805CA8E61B650D0C00E73061 /* Main.storyboard in Resources */,
+				805CA9051B650EBB00E73061 /* Nan pop switzerland.jpg in Resources */,
 				805CA8EB1B650D0C00E73061 /* LaunchScreen.xib in Resources */,
+				805CA90E1B65494600E73061 /* cloud3.jpg in Resources */,
 				805CA8E81B650D0C00E73061 /* Images.xcassets in Resources */,
+				80EC03421B71522400D2F72E /* recordimagecopy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805CA8E31B650D0C00E73061 /* ViewController.swift in Sources */,
+				80EC03441B71557C00D2F72E /* RecordedAudio.swift in Sources */,
+				805CA9071B6527F200E73061 /* profileTableViewController.swift in Sources */,
+				80EC03481B71AD5D00D2F72E /* GlobalFunctions.swift in Sources */,
 				805CA8E11B650D0C00E73061 /* AppDelegate.swift in Sources */,
+				805CA9011B650D4600E73061 /* profileTableViewCell.swift in Sources */,
+				80EC033E1B714D6800D2F72E /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +437,7 @@
 				805CA8FC1B650D0C00E73061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		805CA8FD1B650D0C00E73061 /* Build configuration list for PBXNativeTarget "ProfileFeedCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				805CA8FF1B650D0C00E73061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
